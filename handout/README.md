@@ -3,7 +3,7 @@ Handout
 Works for any standard document.
 
 ## Usage
-See the example **handout.txt** document.
+See the example **handout.tex** document.
 
 1. `\documentclass{wit_handout}`
 2. ...
