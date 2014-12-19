@@ -11,6 +11,7 @@
 *.dvi
 *-converted-to.*
 # these rules might exclude image files for figures etc.
+handout/handout.pdf
 # *.ps
 # *.eps
 # *.pdf
