@@ -87,7 +87,7 @@
 
 \newcommand{\book}[1]{\item ##1}
 \newcommand{\bookInfo}[6]{
-	\book{{##1}. \textit{##2}, {##3}. {##4}, {##5} (ISBN-13: {##6})}
+	\book{{##1}. \textit{##2}, {##3} {ed}. {##4}, {##5} (ISBN-13: {##6})}
 }
 
 \SyllabusSection{#1}
@@ -169,7 +169,8 @@ Students should check the academic calendar to confirm the add/drop deadline.
 Dropping and/or adding courses is done online. 
 Courses dropped in this period are removed from the student's record. 
 \\
-Non-attendance does not constitute dropping a course. 
+
+Non-attendance does not constitute dropping a course. 
 If a student has registered for a course and subsequently withdraws or receives a failing grade in its prerequisite, then the student must drop that course. 
 In some cases, the student will be dropped from that course by the Registrar. 
 However, it is the student's responsibility to make sure that he or she meets the course prerequisites and to drop a course if the student has not successfully completed the prerequisite. 
