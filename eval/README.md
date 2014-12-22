@@ -2,6 +2,8 @@ Eval
 ====
 Creates a set of evaluation questions, each with space to choose a response value {1-5, NA}.
 
+**NOTE**: This class builds on/requires `wit_handout`.
+
 ## Usage
 See the example **eval.tex** document.
 

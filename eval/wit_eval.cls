@@ -6,6 +6,7 @@
 
 \RequirePackage{rotating}
 \RequirePackage{color}
+\RequirePackage[flushmargin]{footmisc}
 
 %\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
