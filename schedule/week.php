@@ -55,7 +55,7 @@
 				echo ' \multirow';
 				echo '{-\get{s}{' . $day . '}{' . $slot . '}}';
 				echo '{*}';
-				echo '{\begin{varwidth}{2.2cm}\centering {\cellcolor{\get{c}{' . $day . '}{' . $slot . '}}{\get{t}{' . $day . '}{' . $slot . '}}}\end{varwidth}}';
+				echo '{\begin{varwidth}{2.45cm}\centering \small \textbf{\cellcolor{\get{c}{' . $day . '}{' . $slot . '}}{\get{t}{' . $day . '}{' . $slot . '}}}\end{varwidth}}';
 			}
 			
 			echo ' \tabularnewline';
