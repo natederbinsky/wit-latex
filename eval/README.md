@@ -15,7 +15,6 @@ See the example **eval.tex** document.
 5. `\course{ **course code here** }{ **course title here** }`
 6. ...
 6. `\begin{document}`
-7. `\maketitle`
 8. `\EvalInstructions{ **optional instructions here** }`
 8. `\begin{EvalBody}`
 9. `\question{ **question text here** }`

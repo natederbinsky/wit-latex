@@ -12,7 +12,6 @@ See the example **syllabus.tex** document.
 5. `\course{ **college name here** }{ **course code here** }{ **course title here** }`
 6. ...
 6. `\begin{document}`
-7. `\maketitle`
 8. ... (see below)
 9. `\end{document}`
 

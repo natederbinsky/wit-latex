@@ -13,7 +13,6 @@ See the example **handout.tex** document.
 5. `\course{ **course code here** }{ **course title here** }`
 6. ...
 6. `\begin{document}`
-7. `\maketitle`
 8. ...
 9. `\end{document}`
 

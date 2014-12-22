@@ -15,6 +15,10 @@
 
 %%
 
+\author{Professor Smith}
+\title{Handout}
+\date{Fall \the\year}
+
 \newcommand{\myInstitution}{Wentworth Institute of Technology}
 \newcommand{\myCourseCode}{COMP101}
 \newcommand{\myCourseTitle}{Intro to Computing}
@@ -47,3 +51,5 @@
 	\pagestyle{myheadings}
 	\markright{\textit{{\myCourseCode, \@date, \@author} -- {\@title}}}
 }
+
+\AtBeginDocument{\maketitle}

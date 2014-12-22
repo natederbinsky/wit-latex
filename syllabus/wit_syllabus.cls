@@ -21,6 +21,9 @@
 
 %%
 
+\author{Professor Smith}
+\date{Fall \the\year}
+
 \newcommand{\myInstitution}{Wentworth Institute of Technology}
 \newcommand{\myCollege}{Engineering and Technology}
 \newcommand{\myCourseCode}{COMP101}
@@ -51,6 +54,8 @@
 	\markright{\textit{{\myCourseCode, \@date, \@author} -- Syllabus}}
 	
 }
+
+\AtBeginDocument{\maketitle}
 
 %%
 

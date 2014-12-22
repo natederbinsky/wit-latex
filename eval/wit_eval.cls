@@ -15,6 +15,8 @@
 
 %%
 
+\title{Evaluation}
+
 \newcommand{\EvalInstructions}[1]{
 	\textit{\small #1} 
 	\vspace{0.8cm}
