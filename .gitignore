@@ -13,6 +13,7 @@
 # these rules might exclude image files for figures etc.
 handout/handout.pdf
 syllabus/syllabus.pdf
+eval/eval.pdf
 # *.ps
 # *.eps
 # *.pdf
