@@ -21,8 +21,10 @@
 
 %%
 
-\author{Professor Smith}
 \date{Fall \the\year}
+
+\newcommand{\myProfessorFirst}{Bob}
+\newcommand{\myProfessorLast}{Smith}
 
 \newcommand{\myInstitution}{Wentworth Institute of Technology}
 \newcommand{\myCollege}{Engineering and Technology}
@@ -33,6 +35,11 @@
 	\renewcommand{\myCollege}{#1}
 	\renewcommand{\myCourseCode}{#2}
 	\renewcommand{\myCourseTitle}{#3}
+}
+
+\newcommand{\prof}[2]{
+	\renewcommand{\myProfessorFirst}{#1}
+	\renewcommand{\myProfessorLast}{#2}
 }
 
 %%
@@ -51,7 +58,7 @@
 	
 	\thispagestyle{empty}
 	\pagestyle{myheadings}
-	\markright{\textit{{\myCourseCode, \@date, \@author} -- Syllabus}}
+	\markright{\textit{{\myCourseCode, \@date, \myProfessorLast} -- Syllabus}}
 	
 }
 
@@ -68,7 +75,7 @@
 \textbf{##1} & ##2 \\
 }
 
-\newcommand{\instructor}{\topic{Instructor}{\@author}}
+\newcommand{\instructor}{\topic{Instructor}{{\myProfessorFirst} {\myProfessorLast}}}
 \newcommand{\office}[2]{\topic{Office}{##1 \topicEndline ##2}}
 \newcommand{\contact}[3]{\topic{Contact}{##1 \topicEndline ##2 \topicEndline ##3}}
 

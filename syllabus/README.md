@@ -7,7 +7,7 @@ See the example **syllabus.tex** document.
 
 1. `\documentclass{wit_syllabus}`
 2. ...
-3. `\author{ **your name here** }`
+3. `\prof{ **your first name here** }{ **your last name here** }`
 4. `\date{ **semester designation here** }`
 5. `\course{ **college name here** }{ **course code here** }{ **course title here** }`
 6. ...
@@ -27,7 +27,7 @@ Within text, use the `\topicEndline` command to create a new line.
 
 For convenience, several shortcut topics have been created:
 
-* `\instructor`: uses the author information to indicate the instructor name
+* `\instructor`: uses the information from `\prof` to indicate the instructor name
 * `\office{ **location** }{ **notes** }`: provides office information
 * `\contact{ **phone** }{ **e-mail** }{ **web** }`: provides contact information
 
