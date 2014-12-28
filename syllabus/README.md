@@ -52,12 +52,14 @@ The `\book` command is basically a list item. The `\bookInfo` command provides c
 ### Schedule
 To create a convenient topic schedule _within_ a section, use the `\SyllabusSchedule}` environment:
 
-1. `\begin{SyllabusSchedule}`
+1. `\begin{SyllabusSchedule}[ **optional extra padding here** ]`
 2. `\week{ **Topic** }{ **Reading** }{ **Notes/Assignments** }`
 3. ...
 4. `\end{SyllabusSchedule}`
 
-The `\week` command can be used as many times as necessary, and it provides an automatic counter of how many weeks have been entered.
+The extra padding argument provides vertically centered space in every row and is optional for aesthetic control.
+
+The `\week` command can be used as many times as necessary, and it provides an automatic counter of how many weeks have been entered. New line commands (`\\`) may be used within any of the three arguments to vertically separate the resulting text.
 
 ### Sections with Pre-filled Contents
 The ICC template has several sections with pre-filled text. Use the following commands, if you wish, to have these sections created automatically:

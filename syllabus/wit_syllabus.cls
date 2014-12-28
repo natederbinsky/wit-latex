@@ -10,6 +10,8 @@
 \RequirePackage{titlesec}
 \RequirePackage{color}
 \RequirePackage{url}
+\RequirePackage{pbox}
+\RequirePackage{array}
 
 %\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -242,15 +244,16 @@ You should also discuss how to access online applications that might be used in 
 
 %%
 
-\newenvironment{SyllabusSchedule}{
+\newenvironment{SyllabusSchedule}[1][0.0cm]{
 
 \newcounter{ScheduleWeek}
 
 \newcommand{\week}[3]{
 \stepcounter{ScheduleWeek}
-\centering \small \arabic{ScheduleWeek} & \small ##1 & \small \centering ##2 & \small ##3 \\ \hline
+\centering \small \arabic{ScheduleWeek} & \parbox{7.5cm}{\small ##1} & \parbox{3.5cm}{\centering \small ##2} & \parbox{4.0cm}{\small ##3} \\[#1] \hline
 }
 
+\setlength{\extrarowheight}{#1}
 \begin{tabular}{ | p{1.0cm} | p{7.5cm} | p{3.5cm} | p{4.0cm} | }
 \hline
 \centering \textbf{Week} & \textbf{Topic} & \centering \textbf{Reading} & \textbf{Assignments/Notes} \\
