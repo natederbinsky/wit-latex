@@ -256,7 +256,7 @@ You should also discuss how to access online applications that might be used in 
 \setlength{\extrarowheight}{#1}
 \begin{tabular}{ | p{1.0cm} | p{7.5cm} | p{3.5cm} | p{4.0cm} | }
 \hline
-\centering \textbf{Week} & \textbf{Topic} & \centering \textbf{Reading} & \textbf{Assignments/Notes} \\
+\centering \textbf{Week} & \textbf{Topic} & \centering \textbf{Reading} & \textbf{Assignments/Notes} \\[#1]
 \hline
 }{
 \end{tabular}
