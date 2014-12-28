@@ -9,7 +9,7 @@
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage{titlesec}
 \RequirePackage{color}
-\RequirePackage{url}
+\RequirePackage{hyperref}
 \RequirePackage{pbox}
 \RequirePackage{array}
 
@@ -79,7 +79,7 @@
 
 \newcommand{\instructor}{\topic{Instructor}{{\myProfessorFirst} {\myProfessorLast}}}
 \newcommand{\office}[2]{\topic{Office}{##1 \topicEndline ##2}}
-\newcommand{\contact}[3]{\topic{Contact}{##1 \topicEndline ##2 \topicEndline ##3}}
+\newcommand{\contact}[3]{\topic{Contact}{##1 \topicEndline \href{mailto:##2}{##2} \topicEndline \url{##3}}}
 
 \begin{tabular*}{1.0\textwidth}{ l l }
 & \\ 
@@ -225,7 +225,7 @@ See your catalogue for a full explanation.
 
 Any student who thinks s/he may require a disability-related accommodation for this course should contact Disability Services privately to discuss their specific needs. 
 Disability Services coordinates reasonable accommodations for students with documented disabilities. 
-They are located in Watson Hall 003 (the Center for Wellness and Disability Services) and can be contacted at 617-989-4390 or \url{mailto:counseling@wit.edu}.  
+They are located in Watson Hall 003 (the Center for Wellness and Disability Services) and can be contacted at 617-989-4390 or \href{mailto:counseling@wit.edu}{counseling@wit.edu}.  
 For more information on acceptable documentation and the Disability Services process, visit the Disability Services website at \url{http://www.wit.edu/disabilityservices}.
 
 }
