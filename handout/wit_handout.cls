@@ -31,7 +31,7 @@
 %%
 
 \renewcommand{\maketitle}{
-	\begin{tabular}{ p{1.0cm} p{8.0cm} }
+	\begin{tabular}{ p{1.0cm} p{0.9\textwidth} }
 		\multirow{3}{*}{\includegraphics[width=0.5in]{_wit}} & \textbf{\myInstitution} \\
 			& {{\myCourseCode} -- {\myCourseTitle}} \\
 			& {{\@date}, {\@author}}\\
