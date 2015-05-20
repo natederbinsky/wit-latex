@@ -1,5 +1,5 @@
 
-FILE = syllabus2
+FILE = syllabus
 
 LATEX = pdflatex -halt-on-error -no-shell-escape
 UNAME_S := $(shell uname -s)

@@ -1,13 +1,11 @@
-Syllabus2
-=========
+Syllabus
+=======
 A syllabus class based upon ICC template 2014v2. Fixed sections have been converted into class commands, whereas other generally useful elements have been instantiated as environments/commands.
 
-**Note**: identical to the `wit_syllabus` class (see `old`) aside from minor cosmetic changes.
-
 ## Usage
-See the example **syllabus2.tex** document.
+See the example **syllabus.tex** document.
 
-1. `\documentclass{wit_syllabus2}`
+1. `\documentclass{wit_syllabus}`
 2. ...
 3. `\prof{ **your first name here** }{ **your last name here** }`
 4. `\date{ **semester designation here** }`
