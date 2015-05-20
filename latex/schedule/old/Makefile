@@ -1,5 +1,5 @@
 
-FILE = schedule2
+FILE = schedule
 
 LATEX = pdflatex -halt-on-error -no-shell-escape
 UNAME_S := $(shell uname -s)

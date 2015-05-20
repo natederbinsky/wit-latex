@@ -1,13 +1,11 @@
-Schedule2
-=========
+Schedule
+=======
 Produces a weekly schedule for posting.
 
-**Note**: identical to the `wit_schedule` class (see `old`) aside from minor cosmetic changes.
-
 ## Usage
-See the example **schedule2.tex** document.
+See the example **schedule.tex** document.
 
-1. `\documentclass{wit_schedule2}`
+1. `\documentclass{wit_schedule}`
 2. ...
 3. `\author{ **your name here** }`
 4. `\date{ **semester designation here** }`
