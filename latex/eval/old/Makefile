@@ -1,5 +1,5 @@
 
-FILE = eval2
+FILE = eval
 
 LATEX = pdflatex -halt-on-error -no-shell-escape
 UNAME_S := $(shell uname -s)
