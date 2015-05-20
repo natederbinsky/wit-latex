@@ -1,13 +1,11 @@
-Handout2
-========
+Handout
+=======
 Works for any standard document.
 
-**Note**: identical to the `wit_handout` class (see `old`) aside from minor cosmetic changes.
-
 ## Usage
-See the example **handout2.tex** document.
+See the example **handout.tex** document.
 
-1. `\documentclass{wit_handout2}`
+1. `\documentclass{wit_handout}`
 2. ...
 2. `\title{ **document title here** }`
 3. `\author{ **your name here** }`
@@ -17,3 +15,4 @@ See the example **handout2.tex** document.
 6. `\begin{document}`
 8. ...
 9. `\end{document}`
+

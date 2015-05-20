@@ -1,5 +1,5 @@
 
-FILE = handout2
+FILE = handout
 
 LATEX = pdflatex -halt-on-error -no-shell-escape
 UNAME_S := $(shell uname -s)
