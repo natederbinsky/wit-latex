@@ -1,13 +1,11 @@
-Exam2
-=====
+Exam
+====
 Produces an exam.
 
-**Note**: identical to the `wit_exam` class (see `old`) aside from minor cosmetic changes.
-
 ## Usage
-See the example **exam2.tex** and **calc2.tex** documents
+See the example **exam.tex** and **calc1.tex** documents
 
-1. `\documentclass{wit_exam2}`
+1. `\documentclass{wit_exam}`
 2. ...
 3. `\author{ **your name here** }`
 4. `\title{ **exam name here** }`
