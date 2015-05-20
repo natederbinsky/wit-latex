@@ -1,1 +1,1 @@
-LaTeX classes/packages for the [Wentworth Institute of Technology](http://wit.edu).
+Templates for the [Wentworth Institute of Technology](http://wit.edu).
