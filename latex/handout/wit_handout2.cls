@@ -22,6 +22,7 @@
 \newcommand{\myInstitution}{Wentworth Institute of Technology}
 \newcommand{\myCourseCode}{COMP101}
 \newcommand{\myCourseTitle}{Intro to Computing}
+\newcommand{\mySchoolLogo}{_wit2}
 
 \newcommand{\course}[2]{
 	\renewcommand{\myCourseCode}{#1}
@@ -32,7 +33,7 @@
 
 \renewcommand{\maketitle}{
 	\begin{tabular}{ p{1.12cm} p{0.9\textwidth} }
-		\multirow{3}{*}{\includegraphics[width=0.46in]{_wit2}} & \textbf{\myInstitution} \\
+		\multirow{3}{*}{\includegraphics[width=0.46in]{\mySchoolLogo}} & \textbf{\myInstitution} \\
 			& {{\myCourseCode} -- {\myCourseTitle}} \\
 			& {{\@date}, {\@author}}\\
 	\end{tabular}
