@@ -212,7 +212,7 @@ Make appointments at \url{http://www.wit.edu/tlc} or through LConnect.
 \SyllabusSection{Academic Honesty Statement}
 
 \textit{``Students at Wentworth are expected to be honest and forthright in their academic endeavors.  
-Academic dishonesty includes cheating, inventing false information or citations, plagiarism, tampering with computers, destroying other people's studio property, or academic misconduct'}' (Academic Catalog).
+Academic dishonesty includes cheating, inventing false information or citations, plagiarism, tampering with computers, destroying other people's studio property, or academic misconduct''} (Academic Catalog).
 See your catalogue for a full explanation.
 
 }
