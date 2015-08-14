@@ -98,6 +98,25 @@
 \newcommand{\slotaway}[4]{
 	\slot{##1}{##2}{##3}{##4}{Away}
 }
+
+\newcommand{\tcVIIIam}{1}
+\newcommand{\tcVIIIamH}{2}
+\newcommand{\tcIXam}{3}
+\newcommand{\tcIXamH}{4}
+\newcommand{\tcXam}{5}
+\newcommand{\tcXamH}{6}
+\newcommand{\tcXIam}{7}
+\newcommand{\tcXIamH}{8}
+\newcommand{\tcXIIpm}{9}
+\newcommand{\tcXIIpmH}{10}
+\newcommand{\tcIpm}{11}
+\newcommand{\tcIpmH}{12}
+\newcommand{\tcIIpm}{13}
+\newcommand{\tcIIpmH}{14}
+\newcommand{\tcIIIpm}{15}
+\newcommand{\tcIIIpmH}{16}
+\newcommand{\tcIVpm}{17}
+\newcommand{\tcIVpmH}{18}
   
 \slotclear{m}{1}
 \slotclear{m}{2}
