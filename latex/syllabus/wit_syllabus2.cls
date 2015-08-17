@@ -170,7 +170,6 @@
 & & & \\ \hline
 
 \end{tabular}
-
 }
 
 %%
@@ -189,7 +188,6 @@ If a student has registered for a course and subsequently withdraws or receives 
 In some cases, the student will be dropped from that course by the Registrar. 
 However, it is the student's responsibility to make sure that he or she meets the course prerequisites and to drop a course if the student has not successfully completed the prerequisite. 
 The student must see his or her academic advisor or academic department chair for schedule revision and to discuss the impact of the failed or withdrawn course on the student's degree status.
-
 }
 
 %%
@@ -202,7 +200,6 @@ The Learning Center (TLC) assists all Wentworth students in the areas of math, s
 In this student-based learning environment, students can receive individual help with their studies, meet and work in study groups, attend workshops on a wide variety of subjects and find resources to assist them in meeting their goals for academic success.  
 It includes tutors in many subjects, writing assistance and workshops focused on helping good students become great students.  
 Make appointments at \url{http://www.wit.edu/tlc} or through LConnect.
-
 }
 
 %%
@@ -214,7 +211,6 @@ Make appointments at \url{http://www.wit.edu/tlc} or through LConnect.
 \textit{``Students at Wentworth are expected to be honest and forthright in their academic endeavors.  
 Academic dishonesty includes cheating, inventing false information or citations, plagiarism, tampering with computers, destroying other people's studio property, or academic misconduct''} (Academic Catalog).
 See your catalogue for a full explanation.
-
 }
 
 %%
@@ -227,7 +223,6 @@ Any student who thinks s/he may require a disability-related accommodation for t
 Disability Services coordinates reasonable accommodations for students with documented disabilities. 
 They are located in Watson Hall 003 (the Center for Wellness and Disability Services) and can be contacted at 617-989-4390 or \href{mailto:counseling@wit.edu}{counseling@wit.edu}.  
 For more information on acceptable documentation and the Disability Services process, visit the Disability Services website at \url{http://www.wit.edu/disabilityservices}.
-
 }
 
 %%
@@ -239,7 +234,6 @@ For more information on acceptable documentation and the Disability Services pro
 If you are enrolled in this course through COF Cross Registration, notify your course instructor. 
 Please provide her/him with your email address to be sure that you receive course information in a timely way. 
 You should also discuss how to access online applications that might be used in the course.
-
 }
 
 %%
