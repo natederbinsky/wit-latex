@@ -241,9 +241,9 @@ You should also discuss how to access online applications that might be used in 
 
 %%
 
-\newenvironment{SyllabusSchedule}[1][0.0cm]{
-
 \newcounter{ScheduleWeek}
+
+\newenvironment{SyllabusSchedule}[1][0.0cm]{
 
 \newcommand{\week}[3]{
 \stepcounter{ScheduleWeek}
