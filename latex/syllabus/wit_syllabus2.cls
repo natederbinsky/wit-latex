@@ -12,6 +12,7 @@
 \RequirePackage{hyperref}
 \RequirePackage{pbox}
 \RequirePackage{array}
+\RequirePackage{footnote}
 
 %\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -81,6 +82,7 @@
 \newcommand{\office}[2]{\topic{Office}{##1 \topicEndline ##2}}
 \newcommand{\contact}[3]{\topic{Contact}{##1 \topicEndline \href{mailto:##2}{##2} \topicEndline \url{##3}}}
 
+\begin{savenotes}
 \begin{tabular*}{1.0\textwidth}{ l l }
 & \\ 
 \hline
@@ -89,6 +91,7 @@
 \hline
 & \\ 
 \end{tabular*}
+\end{savenotes}
 }
 
 %%
@@ -248,10 +251,12 @@ You should also discuss how to access online applications that might be used in 
 }
 
 \setlength{\extrarowheight}{#1}
+\begin{savenotes}
 \begin{tabular}{ | p{1.0cm} | p{7.5cm} | p{3.5cm} | p{4.0cm} | }
 \hline
 \centering \textbf{Week} & \textbf{Topic} & \centering \textbf{Reading} & \textbf{Assignments/Notes} \\[#1]
 \hline
 }{
 \end{tabular}
+\end{savenotes}
 }
