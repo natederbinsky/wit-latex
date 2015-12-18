@@ -11,16 +11,16 @@ See the example **eval2.tex** document.
 
 1. `\documentclass{wit_eval2}`
 2. ...
-2. `\title{ **document title here** }`
-3. `\author{ **your name here** }`
-4. `\date{ **semester designation here** }`
-5. `\course{ **course code here** }{ **course title here** }`
-6. ...
-7. `\begin{document}`
-8. `\EvalInstructions{ **optional instructions here** }`
-9. `\begin{EvalBody}`
-10. `\question{ **question text here** }`
-11. ...
-12. `\end{EvalBody}`
-13. `\EvalFooter{ **optional final notes here** }`
-14. `\end{document}`
+3. `\title{ **document title here** }`
+4. `\author{ **your name here** }`
+5. `\date{ **semester designation here** }`
+6. `\course{ **course code here** }{ **course title here** }`
+7. ...
+8. `\begin{document}`
+9. `\EvalInstructions{ **optional instructions here** }`
+10. `\begin{EvalBody}`
+11. `\question{ **question text here** }`
+12. ...
+13. `\end{EvalBody}`
+14. `\EvalFooter{ **optional final notes here** }`
+15. `\end{document}`

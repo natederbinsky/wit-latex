@@ -13,7 +13,7 @@ See the example **syllabus2.tex** document.
 4. `\date{ **semester designation here** }`
 5. `\course{ **college name here** }{ **course code here** }{ **course title here** }`
 6. ...
-6. `\begin{document}`
+7. `\begin{document}`
 8. ... (see below)
 9. `\end{document}`
 

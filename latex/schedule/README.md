@@ -11,16 +11,16 @@ See the example **schedule2.tex** document.
 2. ...
 3. `\author{ **your name here** }`
 4. `\date{ **semester designation here** }`
-6. ...
+5. ...
 6. `\begin{document}`
-8. ...
-9. `\begin{ScheduleWeek}`
-10. `\slotclass{ **see below** }`
-11. `\slotoffice{ **see below** }`
-12. `\slotaway{ **see below** }`
-13. `\end{ScheduleWeek}`
-14. ...
-15. `\end{document}`
+7. ...
+8. `\begin{ScheduleWeek}`
+9. `\slotclass{ **see below** }`
+10. `\slotoffice{ **see below** }`
+11. `\slotaway{ **see below** }`
+12. `\end{ScheduleWeek}`
+13. ...
+14. `\end{document}`
 
 ### ScheduleWeek slots
 Within a `ScheduleWeek` environment, you populate your week by the slot* commands. Each has the same syntax (4 required arguments), differing only in the colors assigned to each resulting block:
