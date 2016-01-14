@@ -13,12 +13,19 @@
 *.dvi
 *-converted-to.*
 # these rules might exclude image files for figures etc.
-handout/handout.pdf
-syllabus/syllabus.pdf
-eval/eval.pdf
-schedule/schedule.pdf
-exam/exam.pdf
-exam/calc1.pdf
+latex/handout/handout2.pdf
+latex/old/handout.pdf
+latex/syllabus/syllabus2.pdf
+latex/syllabus/old/syllabus.pdf
+latex/eval/eval2.pdf
+latex/eval/old/eval.pdf
+latex/schedule/schedule2.pdf
+latex/schedule/old/schedule.pdf
+latex/exam/exam2.pdf
+latex/exam/old/exam.pdf
+latex/exam/calc2.pdf
+latex/exam/old/calc1.pdf
+latex/letter/letter2.pdf
 # *.ps
 # *.eps
 # *.pdf
