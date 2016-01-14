@@ -3,12 +3,14 @@ FILE = eval2
 
 LATEX = pdflatex -halt-on-error -no-shell-escape
 UNAME_S := $(shell uname -s)
+UNAME_O := $(shell uname -o)
 
 ifeq ($(UNAME_S),Linux)
 	OPEN = xdg-open
-endif
-ifeq ($(UNAME_S),Darwin)
+else ifeq ($(UNAME_S),Darwin)
 	OPEN = open
+else ifeq ($(UNAME_O),Cygwin)
+	OPEN = cygstart
 endif
 
 all: $(FILE).pdf
