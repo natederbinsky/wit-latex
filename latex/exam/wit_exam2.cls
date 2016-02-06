@@ -36,6 +36,20 @@
 
 %%
 
+\newcounter{mySolution}
+\setcounter{mySolution}{0}
+
+\newcommand{\MakeSolution}{\setcounter{mySolution}{1}}
+\newcommand{\IfSolution}{\ifnum\value{mySolution}=1}
+
+\newcommand{\Answer}[1]{
+    \IfSolution
+    \textbf{#1}
+    \fi
+}
+
+%%
+
 \newcommand\set[3]{%
   \csdef{#1_#2}{#3}}
   
@@ -110,13 +124,13 @@
 		\Large {\myCourseCode} -- {\myCourseTitle} \\
 		\Large {\@date}, {\@author} \\
 		\vspace{0.5cm}
-		\LARGE \textbf{\@title}
+		\LARGE \textbf{\@title} \IfSolution \textbf{(SOLUTION)} \fi \\
 		\vspace{1.5cm}
 	\end{center}
 	
 	\thispagestyle{empty}
 	\pagestyle{myheadings}
-	\markright{\textit{{\myCourseCode, \@date, \@author} -- {\@title}}}
+	\markright{\textit{{\myCourseCode, \@date, \@author} -- {\@title} \IfSolution (SOLUTION) \fi}}
 	
 	Name: \line(1,0){275} \\
 	\vspace{1.0cm}

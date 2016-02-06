@@ -35,3 +35,13 @@ The `\ProblemDeclaration` and `\BonusDeclaration` commands function identically,
 
 ### ProblemDefinition
 The optional argument provides an italicized instruction block below the problem section header. Any valid LaTeX commands can be used within this environment.
+
+### Solution Mode
+An optional feature (not available in `old`) is to provide solution information -- that is, content that is only shown when the document is in "solution" mode.
+
+To show solution mode, use the `\MakeSolution` command in the document header (the title will be adjusted to reflect the mode).
+
+To create solution-only content, two commands have been supplied:
+* `\IfSolution` ... `\fi`: any commands between these commands will only be shown in the solution. This is the more general command.
+* `\Answer{ **Text Here** }`: Outputs a bolded value only in solution mode.
+ 
