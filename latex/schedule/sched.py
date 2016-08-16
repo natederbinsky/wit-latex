@@ -22,6 +22,9 @@ def parse_schedule(source):
 		else:
 			row = table.findAll('tr')[1]
 			cols = row.findAll('td')
+			if len(cols[1].string.split(' - ')) <= 1:
+				first = True
+				continue
 			time = [{"hour":int(t[0][0]), "min":int(t[0][1]), "am":t[1]=="am"} for t in [[t[0].split(":"), t[1]] for t in [t.split() for t in cols[1].string.split(' - ')]]]
 			days = cols[2].string
 			
